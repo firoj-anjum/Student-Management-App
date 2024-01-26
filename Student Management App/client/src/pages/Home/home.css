@@ -1,0 +1,56 @@
+.export_btn,.search_btn {
+    background: transparent;
+    border: 2px solid #1f856d;
+    font-weight: bolder;
+    color: #dcede9;
+}
+.export_btn:hover,.search_btn:hover{
+    background: #1f856d;
+    color: #fff;
+}
+.dropdown_btn {
+    background: none !important;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown_btn:hover {
+    color: rgb(54, 54, 250) !important;
+}
+.main_div,.main_div2{
+    background: #323d55;
+    padding: 1%;
+    border-radius: 0 0 0px 0px;
+    border: 1px solid #ffffff;
+    border-top: 0;
+    width: 93%;
+}
+.main_div2{
+    border-radius: 0px 0px 0 0 ;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    background: #fff0c3;
+    width: 100%;
+}
+#footer p{
+    color: #856404;
+    font-weight: bold;
+    text-align: center;
+}
+.add_btn button{
+    background: transparent;
+    border: 2px solid #3633da;
+    font-weight: bolder;
+    color: #dcede9;
+}
+.add_btn button:hover{
+    background: #3633da;
+    color: #fff;   
+}
